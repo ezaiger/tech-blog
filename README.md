@@ -17,7 +17,8 @@
   - [Questions](#questions)
   
   ## Installation
-  - Create a .gitignore file and include: node_modules/, .DS_Store/, .vscode, and package-lock.json. 
+  - Create a .gitignore file and include: node_modules/, .DS_Store/, .vscode, and package-lock.json.
+  - Install Handlebars.js by entering 'npm i express-handlebars' in the command line.
   
   ## Usage
   Follow this <a href="">link</a> to view the deployed application.
