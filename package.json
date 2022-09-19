@@ -4,8 +4,9 @@
   "description": "## License   [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)<br>   Mozilla Public License 2.0 (MPL-2.0)     Further resources on Mozilla Public License 2.0 (MPL-2.0) - Please click on the license badge above for more information.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "jest",
+    "start": "node server.js",
+    "seeds": "node seeds/index.js"
   },
   "repository": {
     "type": "git",
