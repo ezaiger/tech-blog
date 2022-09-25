@@ -6,30 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Tech Blog</title>
-    <link rel="stylesheet" href="/challenge-14/tech-blog/public/stylesheets/styles.css">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav>
-                <a href="/">Home</a>
-                <!-- TODO: prompt user to 'sign up' or 'sign in' -->
-                <a href="/dashboard">Dashboard</a>
-                <!-- TODO: change to 'logout' after user logs in -->
-                <!-- TODO: prompt user to 'sign up' or 'sign in' -->
-                <a href="/login">Login</a>
-            </nav>
+    <div class="wrapper">
+        <nav>
+            <a href="/">Home</a>
+            <a href="/dashboard">Dashboard</a>
+            {{#if loggedIn}}
+            <button id="logout" class="btn-no-style">Logout</button>
+            {{else}}
+            <a href="/login">Login</a>
+            {{/if}}
+        </nav>
+         <header>   
             <h1>
                 <a href="/">The Tech Blog</a>
             </h1>
         </header>
         <main>
-            <!-- TODO: insert blog posts here -->
             {{{ body }}}
         </main>
         <footer>
-
+            &copy; The Tech Blog. All rights reserved.
         </footer>
     </div>
 </body>
