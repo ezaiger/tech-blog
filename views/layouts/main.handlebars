@@ -11,17 +11,19 @@
 
 <body>
     <div class="wrapper">
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/dashboard">Dashboard</a></li>
-                {{#if loggedIn}}
-                <li><button id="logout" class="btn-no-style">Logout</button></li>
-                {{else}}
-                <li><a href="/login">Login</a></li>
-                {{/if}}  
-            </ul>
-        </nav>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/dashboard">Dashboard</a></li>
+                    {{#if loggedIn}}
+                    <li><button id="logout" class="btn-no-style">Logout</button></li>
+                    {{else}}
+                    <li><a href="/login">Login</a></li>
+                    {{/if}}  
+                </ul>
+            </nav>
+        </div>
          <header>   
             <h1><a href="/">The Tech Blog</a></h1>
         </header>

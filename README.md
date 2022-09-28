@@ -18,13 +18,13 @@
   
   ## Installation
   - Create a .gitignore file and include: node_modules/, .DS_Store/, .vscode, and package-lock.json.
-  - Install Handlebars.js by entering 'npm i express-handlebars' in the command line.
+  - Install all dependencies by entering 'npm i' in the command line.
   
   ## Usage
-  Follow this <a href="">link</a> to view the deployed application.
+  Follow this <a href="https://tech-blog-ezaiger.herokuapp.com/">link</a> to view the deployed application.
   
   ## Contributing
-  Code provided by ezaiger.
+  Code provided by ezaiger. Referenced Module 14 lesson material.
 
   ## Tests
   N/A
